@@ -2,8 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #040404;
+    color: rgb(194, 192, 192);
+    overflow-x: hidden;
+
+}
 .App{
     text-align: center;
+    padding: 4em 0;
     font-family: 'Poppins', sans-serif;
 
 }
+
+.title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form-input{
+    /* background-color: #040404;
+    color: rgb(253, 253, 253);
+    box-shadow: solid 4px white; */
+
+    @apply mt-1 block w-10/12 mx-auto  py-2 px-3 border text-white shadow-md shadow-gray-400
+    border-gray-300 bg-black rounded-md focus:outline-none focus:ring-indigo-400 sm:text-sm
+}
+
+.input-group{
+
+    @apply mt-1 block w-10/12 mx-auto py-2 px-1 border text-white shadow-md shadow-gray-400
+    border-gray-300 bg-black rounded-md focus:outline-none focus:ring-indigo-400 sm:text-sm
+
+
+
+}
+
+/* .salary{
+    width: 240px;
+} */
