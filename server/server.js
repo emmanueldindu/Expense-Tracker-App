@@ -10,7 +10,9 @@ const port = process.env.PORT||5000
 
  
 //middleware
-app.use(cors());
+app.use(cors([
+'https://expenseapp.onrender.com/'
+]));
 app.use(express.json())
 //route
 app.use(require('./routes/route'))
