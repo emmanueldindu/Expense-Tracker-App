@@ -11,7 +11,7 @@ const port = process.env.PORT||5000
  
 //middleware
 app.use(cors([
-'https://expenseapp.onrender.com/'
+'https://expense-tracker-app-9lhz.vercel.app/'
 ]));
 app.use(express.json())
 //route
